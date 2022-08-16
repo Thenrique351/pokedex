@@ -1,9 +1,14 @@
-import logo from './logo.svg';
+import Pokemon  from './components/Pokemon'; 
 import './App.css';
 
 function App() {
   return (
-    <h1> Pokedex</h1>
+
+    <div>
+      <h1> Pokedex</h1>
+      <Pokemon/> 
+    </div>
+    
   );
 }
 
